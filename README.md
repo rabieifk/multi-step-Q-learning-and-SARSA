@@ -7,7 +7,7 @@ The employee wants to know which path is the lowest one in term of time and also
 C = Fuel + Time^2
 
 
-With [SARSA](https://en.wikipedia.org/wiki/State–action–reward–state–action) and [Q-learning](https://en.wikipedia.org/wiki/Q-learning) algorithm an employee can find the best path depends on fuel consumption and time.
+With [SARSA](https://en.wikipedia.org/wiki/State–action–reward–state–action) and [Q-learning](https://en.wikipedia.org/wiki/Q-learning) algorithm an employee can find the best path based on fuel consumption and time.
 The [networkx](https://networkx.github.io) is used in this project.
 Also here is a MapBuilder class to build the map which can use in this project.
 [E-greedy](https://junedmunshi.wordpress.com/2012/03/30/how-to-implement-epsilon-greedy-strategy-policy/) in this work can not be used because it is hard to converge to a way at the end of the episode but [boltzmann](https://en.wikipedia.org/wiki/Boltzmann_distribution) policy with high temperature will converge to the best path.
